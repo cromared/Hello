@@ -5,15 +5,18 @@ package com.euroamerica.app;
  *
  */
 public class App 
-{
+{	
     public static void main( String[] args )
     {
-    	System.out.println(mensaje());
+    	
+    	System.out.println(var("Hello"));
     }
     
-    private static String mensaje(){
-    	
-    	  return "say Hello World";
+   
+    
+    public static String var(String msn){
+    	String mensaje=msn;
+    	return mensaje;
     	
     }
 }
