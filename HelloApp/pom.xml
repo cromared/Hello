@@ -35,17 +35,17 @@
 <repositories>
     <repository>
       <id>maven-group</id>
-      <url>http://172.16.180.32:8081/repository/maven-group/</url>
+      <url>http://172.16.180.32:8081/nexus/content/groups/maven-group/</url>
     </repository>
   </repositories>
   <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://172.16.180.32:8081/repository/maven-snapshots/</url>
+      <url>http://172.16.180.32:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>nexus-releases</id>
-      <url>http://172.16.180.32:8081/repository/maven-releases/</url>
+      <url>http://172.16.180.32:8081/nexus/content/repositories/maven_releases/</url>
     </repository>
   </distributionManagement>
 </project>
